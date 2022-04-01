@@ -1,0 +1,6 @@
+- name: This is a Play
+  hosts: some_host
+  become: no
+  tasks:
+    - name: This is a Task
+      command: "echo hi"
