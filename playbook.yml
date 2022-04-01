@@ -6,4 +6,4 @@
       command: "echo hi"
       register: results
     - debug:
-        msg: {{results.stdout}}
+        msg: "{{results.stdout}}"
