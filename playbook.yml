@@ -4,3 +4,6 @@
   tasks:
     - name: This is a Task
       command: "echo hi"
+      register: results
+    - debug:
+        msg: {{results.stdout}}
