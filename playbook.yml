@@ -1,5 +1,5 @@
 - name: This is a Play
-  hosts: some_host
+  hosts: all
   become: no
   tasks:
     - name: This is a Task
